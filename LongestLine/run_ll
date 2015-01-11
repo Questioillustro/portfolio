@@ -1,0 +1,15 @@
+#!/bin/bash
+
+stamp=$(date)
+error=$(gcc -o longest longest.c 2>&1)
+echo $stamp >> log/error_log.txt
+if [ "$error" != "" ]
+then
+    echo "<COMPILE ERROR>" >> log/error_log.txt
+    echo $error >> log/error_log.txt
+    echo $error
+    err_count=$(grep -c "<COMPILE ERROR>" log/error_log.txt)
+    echo "Compilation Errors: $err_count"
+else
+    ./longest < tests_ll.txt
+fi

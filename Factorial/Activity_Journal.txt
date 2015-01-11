@@ -1,0 +1,22 @@
+SWEN-250 Activity Reflection
+Python - WordCount
+
+Name: Stephen Brewster
+
+================================================================
+Start
+Estimated Time	30 minutes
+Plan:
+(Order of implementation, testing approach, etc.)
+1. Follow the steps provided
+2. Learn how to raise exceptions and assert them in a test
+
+Complete
+Actual Time	30 minutes
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+1. Learned basic unit testing approach in ruby
+2. Got started working with exceptions
+3. Finished in the estimated time
+
+================================================================

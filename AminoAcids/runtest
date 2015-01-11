@@ -1,0 +1,3 @@
+#!/bin/bash
+python3 amino_acids.py < amino_acids_tests.txt
+

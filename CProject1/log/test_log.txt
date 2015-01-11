@@ -1,0 +1,7 @@
+Welcome to the Health Monitoring System
+
+23:00:00: Heart Rate for patient ID = 5 is 101.3
+05:23:46: Systolic Pressure for patient ID = 3 is 11.0
+06:18:56: Print for patient ID = 2 is 0.0
+
+End of Input

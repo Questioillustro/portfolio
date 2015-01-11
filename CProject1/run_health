@@ -1,0 +1,29 @@
+#!/bin/bash
+
+# Compile executables
+gcc -o health health.c
+gcc -o verify verify.c
+
+# Parse options
+anopt=0
+while getopts 12345 opt;
+do
+    case "${opt}"
+    in
+        1) anopt=1; ./health -1 < tests/test_lvl_1.txt > log/test_log.txt ;;
+        2) anopt=1; ./health -2 < tests/test_lvl_2.txt > log/test_log.txt ;;
+        3) anopt=1; ./health -3 < tests/test_lvl_3.txt > log/test_log.txt ;;
+        4) anopt=1; ./health -4 < tests/test_lvl_4.txt > log/test_log.txt ;;
+        5) anopt=1; ./health -5 < tests/test_lvl_5.txt > log/test_log.txt ;;
+    esac
+done
+
+# if no opt is passed, run highest level
+if [ $anopt == 0 ]
+then
+    ./health < tests/test_lvl_5.txt > log/test_log.txt
+fi
+
+# run automated tests
+#./verify
+cat log/test_log.txt

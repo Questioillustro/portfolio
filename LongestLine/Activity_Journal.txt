@@ -1,0 +1,53 @@
+SWEN-250 Activity Reflection
+C - LongestLine
+
+Name: Stephen Brewster
+
+================================================================
+Part 1
+
+Start
+Estimated Time	45 minutes
+Plan:
+(Order of implementation, testing approach, etc.)
+1. Create bash scripts to compile, run, and track the program
+    1.1 Commit
+2. Implement readline to echo the lines as they are read in
+    2.1 Update this document and submit
+
+Complete
+Actual Time	35 minutes
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+Compilation errors : 1
+Made a fancy pants bash script that compiles and runs the executable, also
+appends errors to a log file and tallies the total compilation errors. 
+No real problems encountered in C, most of the time for this part was spent
+studying bash. Completed much faster than expected, found information I was
+looking for quickly and had no troubles with implementing the readline method.
+
+================================================================
+
+Part 2 
+
+Start
+Estimated Time 15 minutes
+Plan:
+(Order of implementation, testing approach, etc.)
+1. After a line is read, compare its length to the current longest
+2. If a higher length string is found -> set new highest length and copy
+3. Implement copy method
+4. Update this document and submit
+
+Complete
+Actual Time	20 minutes
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+Compilation errors : 1
+Fairly trivial to implement. Took more time than expected to ensure the MAXLINE
+was enforced and added test to cover it. Overall only 2 compilation errors for 
+both parts so that was good. Learned some fun tricks with bash scripting and 
+gained confidence in C syntax and its finicky nature.
+
+
+================================================================

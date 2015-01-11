@@ -1,0 +1,111 @@
+#!/bin/bash
+# 1. Compiles health 
+# 2. Write some Randomly Generated Test Data to file
+# 3. Run health and provides RGTD to stdin
+
+# Generate a random id
+
+function pick_id() {
+    id=-1
+    while [ $id -le $idmin ]
+    do
+        id=$RANDOM
+        let "id %= $idmax"
+    done
+}
+
+# Generate random command code
+
+function pick_cmd() {
+    cmd=-1
+    while [ $cmd -le $cmdmin ]
+    do
+        cmd=$RANDOM
+        let "cmd %= $cmdmax"
+    done
+}
+
+# Generate random value
+
+function pick_val() {
+    val=-1
+    while [ $val -le $valmin ]
+    do
+        val=$RANDOM
+        let "val %= $valmax"
+    done
+}
+
+# Generate random number of data points
+
+function pick_datapoints() {
+    datapoints=-1
+    while [ $datapoints -le $datapointsmin ]
+    do
+        datapoints=$RANDOM
+        let "datapoints %= $datapointsmax"
+    done
+}
+
+patientcount=2
+datatypecount=3
+
+time=00:00:00
+
+idmin=0
+idmax=10000
+
+cmdmin=0
+cmdmax=6
+
+valmin=0
+valmax=120
+
+datapointsmin=1
+datapointsmax=6
+
+# make the health executable
+make
+> test.txt
+
+# generate random data for test --------------------------
+
+# Create data for N patients
+while [ $patientcount -ge 1 ]
+do
+    pick_id # select random ID
+
+    # check patient in
+    echo "$id, $time, 7, 0" >> test.txt
+    x=$datatypecount
+
+    # pick a data type and produce datapoints
+    while [ $x -ge 1 ]
+    do
+        pick_cmd # select random health datatype (1-5)
+        echo "$id, $time, 9, $cmd" >> test.txt # calls addDataType 
+
+        pick_datapoints # select random number of data points for the type
+        while [ $datapoints -ge 0 ]
+        do
+            pick_val # select random value for the datapoint
+            echo "$id, $time, $cmd, $val" >> test.txt
+            let datapoints-=1
+        done
+
+        let x-=1
+    done
+
+    # print patient data
+    echo "$id, $time, 6, 0" >> test.txt
+    # check patient out
+    echo "$id, $time, 8, 0" >> test.txt
+
+    let patientcount-=1
+done
+#---------------------------------------------------------
+
+# execute health
+./health < test.txt
+
+

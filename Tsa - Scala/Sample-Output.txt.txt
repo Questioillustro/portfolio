@@ -1,0 +1,94 @@
+NEW PASSENGER #1 enters the system
+NEW PASSENGER #2 enters the system
+NEW PASSENGER #3 enters the system
+NEW PASSENGER #4 enters the system
+NEW PASSENGER #5 enters the system
+NEW PASSENGER #6 enters the system
+NEW PASSENGER #7 enters the system
+NEW PASSENGER #8 enters the system
+NEW PASSENGER #9 enters the system
+NEW PASSENGER #10 enters the system
+Passenger #1 arrives at DOC CHECK
+DOCUMENT CHECK passenger #1 CLEARED
+Passenger #2 arrives at DOC CHECK
+DOCUMENT CHECK passenger #2 CLEARED
+Passenger #3 arrives at DOC CHECK
+DOCUMENT CHECK passenger #3 CLEARED
+Passenger #4 arrives at DOC CHECK
+DOCUMENT CHECK passenger #4 CLEARED
+Passenger #5 arrives at DOC CHECK
+DOCUMENT CHECK passenger #5 FAILED, take a hike!
+Passenger #1 enters SECURITY LINE #2
+Passenger #6 arrives at DOC CHECK
+DOCUMENT CHECK passenger #6 CLEARED
+Passenger #7 arrives at DOC CHECK
+DOCUMENT CHECK passenger #7 CLEARED
+Passenger #8 arrives at DOC CHECK
+DOCUMENT CHECK passenger #8 CLEARED
+Passenger #9 arrives at DOC CHECK
+DOCUMENT CHECK passenger #9 FAILED, take a hike!
+Passenger #10 arrives at DOC CHECK
+DOCUMENT CHECK passenger #10 CLEARED
+Passenger #3 enters SECURITY LINE #2
+Passenger #7 enters SECURITY LINE #2
+Bag for Passenger #1 enters BAG SCANNER #2
+DOCUMENT CHECK shutting down!
+Passenger #1 enters BODY SCANNER #2
+Passenger #3 enters BODY SCANNER #2
+Passenger #7 enters BODY SCANNER #2
+LINE QUEUE #2 shutting down!
+SECURITY LINE #2 received BAG SCANNER results, passenger #1
+BODY SCANNER #2 shutting down!
+SECURITY LINE #2 received BODY SCANNER results, passenger #1
+SECURITY LINE #2 body scan FAILED, passenger #1 target has been tazed and restrained.
+SECURITY LINE #2 received BODY SCANNER results, passenger #3
+SECURITY LINE #2 received BODY SCANNER results, passenger #7
+JAIL: passenger #1 in lockup.
+Bag for Passenger #3 enters BAG SCANNER #2
+Bag for Passenger #7 enters BAG SCANNER #2
+SECURITY LINE #2 received BAG SCANNER results, passenger #3
+BAG SCAN #2 shutting down!
+SECURITY LINE #2 body scan FAILED, passenger #3 target has been tazed and restrained.
+JAIL: passenger #3 in lockup.
+SECURITY LINE #2 received BAG SCANNER results, passenger #7
+SECURITY LINE #2 all scaning PASSED, passenger #7
+SECURITY LINE #2 shutting down.
+Passenger #2 enters SECURITY LINE #1
+Passenger #4 enters SECURITY LINE #1
+Bag for Passenger #2 enters BAG SCANNER #1
+Passenger #2 enters BODY SCANNER #1
+Bag for Passenger #4 enters BAG SCANNER #1
+Passenger #4 enters BODY SCANNER #1
+Passenger #6 enters SECURITY LINE #1
+Bag for Passenger #6 enters BAG SCANNER #1
+Passenger #8 enters SECURITY LINE #1
+Passenger #10 enters SECURITY LINE #1
+LINE QUEUE #1 shutting down!
+SECURITY LINE #1 received BAG SCANNER results, passenger #2
+Bag for Passenger #8 enters BAG SCANNER #1
+Bag for Passenger #10 enters BAG SCANNER #1
+Passenger #6 enters BODY SCANNER #1
+BAG SCAN #1 shutting down!
+Passenger #8 enters BODY SCANNER #1
+Passenger #10 enters BODY SCANNER #1
+BODY SCANNER #1 shutting down!
+SECURITY LINE #1 received BODY SCANNER results, passenger #2
+SECURITY LINE #1 all scaning PASSED, passenger #2
+SECURITY LINE #1 received BAG SCANNER results, passenger #4
+SECURITY LINE #1 received BODY SCANNER results, passenger #4
+SECURITY LINE #1 all scaning PASSED, passenger #4
+SECURITY LINE #1 received BAG SCANNER results, passenger #6
+SECURITY LINE #1 received BAG SCANNER results, passenger #8
+SECURITY LINE #1 received BAG SCANNER results, passenger #10
+SECURITY LINE #1 received BODY SCANNER results, passenger #6
+SECURITY LINE #1 all scaning PASSED, passenger #6
+SECURITY LINE #1 received BODY SCANNER results, passenger #8
+SECURITY LINE #1 all scaning PASSED, passenger #8
+SECURITY LINE #1 received BODY SCANNER results, passenger #10
+SECURITY LINE #1 bag scan FAILED, passenger #10 bag in quarantine.
+JAIL: passenger #10 in lockup.
+SECURITY LINE #1 shutting down.
+JAIL: shutting down!
+Passenger #1 sent to permanent lockup in Guantanamo.
+Passenger #3 sent to permanent lockup in Guantanamo.
+Passenger #10 sent to permanent lockup in Guantanamo.

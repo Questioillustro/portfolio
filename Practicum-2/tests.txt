@@ -1,0 +1,3 @@
++,GBP,35,CAN,2
+-,EUR,20,CHF,5
++,CHF,55,SEK,73
