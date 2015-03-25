@@ -15,6 +15,7 @@ def create_conn(dbName):
     try:
         # Admin connection
         conn = psycopg2.connect("dbname='"+dbName+"' user='postgres' host='localhost' password='create'")
+
     except Exception as err:
         debug.error("Unable to establish connection")
         debug.error(err.message)
@@ -32,7 +33,7 @@ def create_dict_conn(dbName):
 
     cur = conn.cursor()
     return cur, conn
-    
+
 def get_visitor_conn(dbName):
     try:
         # Visitor connection

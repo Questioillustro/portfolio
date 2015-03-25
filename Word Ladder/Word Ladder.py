@@ -21,6 +21,9 @@ import enchant
 
 # Open dictionary of american english words for validation
 dict = enchant.Dict("en_us")
+
+# Open dictionary of american english words for validation
+#dict = open("/usr/share/dict/american-english", "r").readlines()
 alpha = "a b c d e f g h i j k l m n o p q r s t u v w x y z".split();
 dict_map = {}
 expanded = {}
@@ -86,7 +89,6 @@ def bfs(start, target):
 while(True):
     start = raw_input("Enter starting word: ")
     target = raw_input("Enter target word: ")
-    print bfs(start, target)
-        
-    
-              
+    print(bfs(start, target))
+       
+

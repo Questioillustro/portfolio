@@ -19,6 +19,7 @@ def generate_all_stats():
 
     for l in languages:
         lang = l[0]
+
         print("--", lang, " -- ")
 
         files_for_lang = query.sql_query("SELECT s.path||'\\'||s.name FROM script as s,language as l WHERE s.languageid = l.id AND l.name = %s;", [lang])
@@ -38,6 +39,14 @@ def generate_all_stats():
     # Package stats
     pkgs = query.sql_query("SELECT count(*) FROM package;", None)
     print('Package count: ', pkgs[0][0])
+    print "Total lines: ", line_count
+    print "Avg. lines per file: ", line_count / len(files_for_lang)
+        print
+
+    print '++ Overall ++'
+    # Package stats
+    pkgs = query.sql_query("SELECT count(*) FROM package;", None)
+    print 'Package count: ', pkgs[0][0]
 
     # Gather stats on the unsorted files
     files_unsorted = query.sql_query("SELECT file FROM unsorted;", None)
@@ -46,12 +55,11 @@ def generate_all_stats():
         lines_ = len(open(f[0], "r").readlines())
         unsorted_lines += lines_
         total_lines += lines_
-        
-    print('Unsorted lines of code: ', unsorted_lines)
-
 
     # LOC stats
     print('Total lines of code: ', total_lines)
+    print 'Unsorted lines of code: ', unsorted_lines
+
 
     
     
