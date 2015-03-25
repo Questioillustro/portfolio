@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import sys
 from PyQt5.QtWidgets import (QWidget, QLabel, QLineEdit, QListWidget, QPlainTextEdit,
     QTextEdit, QGridLayout, QApplication, QHBoxLayout, QCheckBox, QComboBox, QPushButton,

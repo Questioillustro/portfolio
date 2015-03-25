@@ -114,11 +114,11 @@ def get_all_by_package(_id):
     return result[0]
 
 def find_in_code(search):
-    cur, conn = pg_get_connection.get_visitor_conn("portfolio")
+    cur, conn = pg_get_connection.create_dict_conn("portfolio")
     search = '%'+search+'%'
     
     try:
-        cur.execute("SELECT s.path||'\\'||s.name FROM script as s WHERE s.content ILIKE %s;",
+        cur.execute("SELECT * FROM script as s WHERE s.content ILIKE %s;",
                     [search])
         results = cur.fetchall()
     except Exception as err:
