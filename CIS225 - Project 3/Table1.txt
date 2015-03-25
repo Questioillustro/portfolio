@@ -1,0 +1,9 @@
+1111,'Sara','Wexler','Computer',30
+1234,'Davis','Smith','Computer',45
+6789,'John','Kerry','Math',40
+3456,'Kathy','Murphy','Chemistry',35
+5678,'Steve','Gore','Computer',40
+7890,'Albert','Joesef','Math',42
+4567,'George','Bush','English',48
+8901,'Dan','Howard','Computer',38
+2345,'Dow','Jones','Chemistry',25

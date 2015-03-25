@@ -1,0 +1,46 @@
+//Loop #1
+int n, sum = 0;
+for (n = 1; n < 10; n++);
+   sum = sum + n;
+System.out.println("The sum of {1,2,3,...,9,10} is: " + sum);	 
+
+//Loop #2
+int number = 10;
+while (number > 0)
+	{
+    System.out.println(number);
+	 number = number + 1;
+	}
+//Loop #3
+int limit = 10;
+for (n = 1; n < limit; n++)
+	{
+   System.out.println("n == " + n);
+	System.out.println("limit ==" + limit);
+	limit = n + 2;
+	}	 
+
+//Loop #4
+number = 10;
+while (number > 0)
+	{
+   number = number - 2;
+	if(number == 4)
+	    break; //break what?
+		 System.out.println(number);
+	}
+System.out.println("The end.");
+	
+	
+//Loop #5
+number = 10;
+while (number > 0)
+	{
+   number = number - 2;
+	if(number == 4)
+	    continue; //continue what?
+	 System.out.println(number);
+	}
+System.out.println("The end.");
+}
+}

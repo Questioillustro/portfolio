@@ -1,0 +1,26 @@
+SWEN-250 Activity Reflection
+Ruby - Histogram.rb
+
+Name: Stephen Brewster
+
+================================================================
+Start
+Estimated Time	2.5 hours
+Plan:
+(Order of implementation, testing approach, etc.)
+1. Study general aspects of ruby to get a feel for the syntax
+2. Move through  the requirements point by point and develop the script incrementally
+3. Find opportunities to factor out code into generalized functions
+4. Study specific Ruby functions as required
+5. Test with provided .txt files
+
+Complete
+Actual Time	3.5 hours
+Observations:
+(Lessons learned, problems encountered, obstacles overcome, etc.)
+1. Learned a great deal about Ruby
+2. No notable problems encountered
+3. Developed a basic solution to get a hash of words and their counts, then began moving through the steps provided
+4. Completed 1 hour later than expected, but mostly due to taking extra time with studying Ruby
+
+================================================================

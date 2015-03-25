@@ -1,0 +1,10 @@
+2014-12-14 18:12:17	Deleting missing fileB:\Portfolio\Binary Search Tree\TreeNode.py
+
+2015-03-23 17:53:40	 ERROR Invalid command or syntax name 'pg_get_connection' is not defined
+
+
+2015-03-24 22:24:25	 ERROR Unable to establish connection
+
+
+2015-03-24 22:26:57	 ERROR Unable to establish connection
+

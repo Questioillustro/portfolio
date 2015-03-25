@@ -1,0 +1,8 @@
+Smith,John,(212)444-7866,325.60,saving
+Grove,Kavin,(716)111-3356,2000.53,checking
+Obama,Barak,(310)777-1212,5000.32,checking
+Palin,Sara,(509)888-1234,6120.55,saving
+Bush,George,(607)567-2345,200.00,saving
+Clinton,Hillery,(212)456-2378,1000.50,checking
+Bush,George,(607)567-2345,200.00,checking
+Clinton,Hillery,(212)456-2378,1000.50,saving

@@ -1,0 +1,17 @@
+Welcome to the Health Monitoring System
+
+--------------------------------------------------
+Readings for Patient ID = 5 are:
+Temperature:
+08:00:10: 98.6 
+Heart Rate: 
+08:00:00: 60 
+Systolic Pressure 
+08:00:05: 110 
+Diastolic Pressure 
+08:00:06: 70 
+Respiration Rate 
+08:00:01: 15 
+--------------------------------------------------
+
+End of input
