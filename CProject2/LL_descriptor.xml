@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>CProject2<health />
+  <health.c>
+    <description>Parse CSV lines and store medical patient related data in structures, check patients in and out</description>
+    <keyword>csv</keyword>
+    <keyword>stdin</keyword>
+    <keyword>circular buffer</keyword>
+    <keyword>linked list</keyword>
+  </health.c>
+  <health.h />
+  <health.o />
+  <health_util.c>
+    <description>Utility methods for C Project 2</description>
+    <keyword>linked list</keyword>
+    <keyword>pointers</keyword>
+    <keyword>struct</keyword>
+  </health_util.c>
+  <health_util.o />
+  <LL_descriptor.xml />
+  <Makefile />
+  <README.txt />
+  <run_health />
+  <test.txt />
+</package>

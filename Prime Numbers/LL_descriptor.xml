@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Prime Numbers<LL_descriptor.xml />
+  <prime_numbers.py>
+    <description>Computes prime number statistics</description>
+    <keyword>prime numbers</keyword>
+    <keyword>math</keyword>
+  </prime_numbers.py>
+  <pset1a.pdf />
+</package>

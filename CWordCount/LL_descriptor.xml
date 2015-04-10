@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>CWordCount<.Activity_Journal.txt.swp />
+  <a.out />
+  <DarkAndStormyNight.txt />
+  <LL_descriptor.xml />
+  <README.txt />
+  <ritwc />
+  <ritwc.c>
+    <description>Counts the words, characters and lines of stdin, mimics wc in Linux</description>
+    <keyword>stdin</keyword>
+  </ritwc.c>
+</package>

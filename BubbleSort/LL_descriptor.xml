@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>BubbleSort<BubbleSort.ncb />
+  <BubbleSort.sdf />
+  <BubbleSort.sln />
+  <BubbleSort.suo />
+  <BubbleSort.v12.suo />
+  <LL_descriptor.xml />
+  <UpgradeLog.htm />
+  <BubbleSort.sln />
+  <BubbleSort.v12.suo />
+  <BubbleSort.vcproj />
+  <BubbleSort.vcproj.STUDENT-DM.sbrewster001.user />
+  <BubbleSort.vcxproj />
+  <BubbleSort.vcxproj.filters />
+  <Main.cpp>
+    <description>Sorts an array of random integers</description>
+    <keyword>bubble sort</keyword>
+  </Main.cpp>
+  <BubbleSort.exe.embed.manifest />
+  <BubbleSort.exe.embed.manifest.res />
+  <BubbleSort.exe.intermediate.manifest />
+  <BuildLog.htm />
+  <Main.obj />
+  <mt.dep />
+  <vc90.idb />
+  <vc90.pdb />
+  <BubbleSort.exe />
+  <BubbleSort.ilk />
+  <BubbleSort.pdb />
+</package>

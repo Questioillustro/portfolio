@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>CIS225 - Project 3<Data Base Notes_b.doc />
+  <Data Sources (ODBC).lnk />
+  <DataBase.class />
+  <DataBase.java>
+    <description>Class for database interaction using JDBC</description>
+    <keyword>jdbc</keyword>
+    <keyword>database</keyword>
+    <keyword>sql</keyword>
+  </DataBase.java>
+  <dbprops.dat />
+  <dbprops2.dat />
+  <instructions for database Connectivity.doc />
+  <LL_descriptor.xml />
+  <Project3.class />
+  <Project3.java>
+    <description>First database application! Basic table creation and interaction</description>
+    <keyword>database</keyword>
+    <keyword>sql</keyword>
+    <keyword>jdbc</keyword>
+  </Project3.java>
+  <SQL Injection Websites.doc />
+  <Table1.txt />
+  <Table2.txt />
+  <TestDB.java />
+  <TestDB.mdb />
+  <TestDB1.java />
+  <TestDB2_b.class />
+  <TestDB2_b.java />
+  <TestDB3.java />
+  <TestDB4.class />
+  <TestDB4.java />
+  <TestDB5.class />
+  <TestDB5.java />
+  <~$structions for database Connectivity.doc />
+  <~$ta Base Notes_b.doc />
+</package>

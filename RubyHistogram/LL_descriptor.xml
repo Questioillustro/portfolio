@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>RubyHistogram<Activity_Journal.txt />
+  <histogram.rb>
+    <description>Takes text from standard in and produces a histogram of word occurences</description>
+    <keyword>stdin</keyword>
+    <keyword>histogram</keyword>
+  </histogram.rb>
+  <jabberwocky.txt />
+  <LL_descriptor.xml />
+  <totc.txt />
+</package>

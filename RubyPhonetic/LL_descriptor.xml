@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>RubyPhonetic<LL_descriptor.xml />
+  <phonetic.rb>
+    <description>Converts text to the NATO phonetic alphabet</description>
+    <keyword>stdin</keyword>
+  </phonetic.rb>
+  <phonetic_test.rb>
+    <description>Unit tests for phonetic alphabet</description>
+    <keyword>unit test</keyword>
+  </phonetic_test.rb>
+  <README.txt />
+  <tests.txt />
+</package>

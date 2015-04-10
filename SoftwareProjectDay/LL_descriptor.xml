@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>SoftwareProjectDay<.classpath />
+  <.project />
+  <LL_descriptor.xml />
+  <org.eclipse.jdt.core.prefs />
+  <ConferenceRoom.class />
+  <Developer.class />
+  <Employee.class />
+  <Logger.class />
+  <Main.class />
+  <PM.class />
+  <Project1.zip />
+  <Report.pdf />
+  <SimulationClock$Stopwatch.class />
+  <SimulationClock.class />
+  <TeamLead.class />
+  <ConferenceRoom.java>
+    <description>Simulates the conference room component of the simulation</description>
+    <keyword>explicit lock</keyword>
+    <keyword>concurrency</keyword>
+  </ConferenceRoom.java>
+  <Developer.java>
+    <description>Developer object for the simulation</description>
+    <keyword>trivial</keyword>
+  </Developer.java>
+  <Employee.java>
+    <description>Employee interface for the simulation</description>
+    <keyword>explicit lock</keyword>
+    <keyword>concurrency</keyword>
+  </Employee.java>
+  <Logger.java>
+    <description>Logging for the simulation</description>
+    <keyword>logger</keyword>
+  </Logger.java>
+  <Main.java>
+    <description>Driver class for the simulation</description>
+    <keyword>driver</keyword>
+  </Main.java>
+  <PM.java>
+    <description>Project manager class for the simulation</description>
+    <keyword>concurrency</keyword>
+    <keyword>synchronization</keyword>
+  </PM.java>
+  <Project1.zip />
+  <README.txt />
+  <Report.pdf />
+  <SimulationClock.java>
+    <description>Controls time for the simulation</description>
+    <keyword>simulation clock</keyword>
+    <keyword>stopwatch</keyword>
+  </SimulationClock.java>
+  <TeamLead.java>
+    <description>Simulates the team leader in the simulation</description>
+    <keyword>explicit lock</keyword>
+    <keyword>concurrency</keyword>
+  </TeamLead.java>
+</package>

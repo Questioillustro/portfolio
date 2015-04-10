@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Project-1<activity_journal.txt />
+  <example.csv />
+  <grades.rb>
+    <description>Uses a CSV list to print and convert student GPAs</description>
+    <keyword>stdin</keyword>
+    <keyword>csv</keyword>
+  </grades.rb>
+  <grades_util.rb>
+    <description>Utility methods for Project 1 - swen250</description>
+    <keyword>stdin</keyword>
+    <keyword>csv</keyword>
+    <keyword>dictionary</keyword>
+  </grades_util.rb>
+  <LL_descriptor.xml />
+  <test_grades.rb>
+    <description>Unit tests for Project 1 - swen250</description>
+    <keyword>unit test</keyword>
+  </test_grades.rb>
+</package>

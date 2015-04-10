@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>CSC103 - Project 1<103_Lab_1_S11_quadratic.docx />
+  <inputCoef.txt />
+  <Lab1.class />
+  <Lab1.java />
+  <LL_descriptor.xml />
+  <Quadratic.class />
+  <Quadratic.java>
+    <description>Utility methods for the lab 1 - csc103</description>
+    <keyword>quadratic</keyword>
+    <keyword>math</keyword>
+  </Quadratic.java>
+  <QuadTest.class />
+  <QuadTest.java>
+    <description>Tests the quadratic functions of the lab by reading in a file and verifying results</description>
+    <keyword>test</keyword>
+    <keyword>quadratic</keyword>
+    <keyword>parse</keyword>
+  </QuadTest.java>
+  <~$3_Lab_1_S11_quadratic.docx />
+</package>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>GitMetrics<Activity_Journal.txt />
+  <git_metrics.rb>
+    <description>Perform metric analysis on a git log file</description>
+    <keyword>git</keyword>
+    <keyword>metric analysis</keyword>
+  </git_metrics.rb>
+  <LL_descriptor.xml />
+  <ruby-progressbar-full.txt />
+  <ruby-progressbar-short.txt />
+  <test_git_metrics.rb>
+    <description>Tests the git metric functions</description>
+    <keyword>unit test</keyword>
+  </test_git_metrics.rb>
+</package>

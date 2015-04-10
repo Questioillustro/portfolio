@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>CIS225 - Project 1<BankTestGUI.class />
+  <BankTestGUI.java>
+    <description>Currently non operating GUI interface for the Bank application</description>
+    <keyword>swing</keyword>
+    <keyword>frame</keyword>
+    <keyword>non-working</keyword>
+  </BankTestGUI.java>
+  <LL_descriptor.xml />
+  <Bank.class />
+  <Bank.html />
+  <Bank.java>
+    <description>Performs business logic for Banking application</description>
+    <keyword>list</keyword>
+    <keyword>array</keyword>
+    <keyword>user input</keyword>
+  </Bank.java>
+  <bankTest.class />
+  <bankTest.java>
+    <description>Console test of the bank applications operations</description>
+    <keyword>command line</keyword>
+    <keyword>menu interface</keyword>
+    <keyword>test</keyword>
+  </bankTest.java>
+  <checkingAcc.class />
+  <checkingAcc.java>
+    <description>Checking account logic for Bank Application</description>
+    <keyword>bank logic</keyword>
+  </checkingAcc.java>
+  <Content of New Folder and all subpackages.png />
+  <Customer.class />
+  <Customer.java>
+    <description>Customer object class</description>
+    <keyword>customer class</keyword>
+  </Customer.java>
+  <customerlist.txt />
+  <IO.doc />
+  <IO.odt />
+  <Program Abstract.doc />
+  <savingAcc.class />
+  <savingAcc.java>
+    <description>Performs saving account logic for Bank Application</description>
+    <keyword>saving account logic</keyword>
+  </savingAcc.java>
+  <Table of ContentsPage.doc />
+  <Title Page.doc />
+  <Bank.class />
+  <Bank.java />
+  <BankArrayList.class />
+  <BankArrayList.java />
+  <bankTest.class />
+  <bankTest.java />
+  <bankTestUI.class />
+  <bankTestUI.java />
+  <checkingAcc.class />
+  <checkingAcc.java />
+  <Customer.class />
+  <Customer.java />
+  <customerlist.txt />
+  <savingAcc.class />
+  <savingAcc.java />
+  <Test.java />
+</package>

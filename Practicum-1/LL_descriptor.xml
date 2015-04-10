@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Practicum-1<Bracket.py>
+    <description>Performs some basic text manipulation, written in a 50 minute practicum</description>
+    <keyword>text manipulation</keyword>
+    <keyword>practicum</keyword>
+  </Bracket.py>
+  <LL_descriptor.xml />
+  <testbracket.sh />
+</package>

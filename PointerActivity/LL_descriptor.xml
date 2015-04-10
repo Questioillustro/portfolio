@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>PointerActivity<LL_descriptor.xml />
+  <main.c>
+    <description>Practice with C pointers</description>
+    <keyword>pointers</keyword>
+  </main.c>
+  <Makefile />
+  <read_data.c>
+    <description>Reads data from pointers</description>
+    <keyword>pointers</keyword>
+  </read_data.c>
+  <read_data.h />
+</package>

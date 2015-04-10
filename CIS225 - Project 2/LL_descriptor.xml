@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>CIS225 - Project 2<calculatorMain.class />
+  <calculatorMain.java>
+    <description>Main method for calculator application</description>
+    <keyword>driver</keyword>
+  </calculatorMain.java>
+  <CreateMenus.class />
+  <CreateMenus.java>
+    <description>Swing class for creating menus</description>
+    <keyword>swing</keyword>
+    <keyword>menu</keyword>
+  </CreateMenus.java>
+  <Fraction.class />
+  <Fraction.java>
+    <description>Math logic for the calculator</description>
+    <keyword>math</keyword>
+  </Fraction.java>
+  <fractionCalculator.class />
+  <fractionCalculator.java>
+    <description>Logic controller for the calculator</description>
+    <keyword>controller</keyword>
+    <keyword>calculator logic</keyword>
+  </fractionCalculator.java>
+  <LL_descriptor.xml />
+  <makeFrame$aboutFrame.class />
+  <makeFrame$ButtonListener.class />
+  <makeFrame$errorMessage.class />
+  <makeFrame$inputInfoFrame.class />
+  <makeFrame.class />
+  <makeFrame.java>
+    <description>Frame creator for the calculator GUI</description>
+    <keyword>frame</keyword>
+    <keyword>swing</keyword>
+    <keyword>gui</keyword>
+  </makeFrame.java>
+  <Pseudocode.rtf />
+</package>

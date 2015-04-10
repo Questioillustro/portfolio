@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Word Ladder<LL_descriptor.xml />
+  <Word Ladder.py>
+    <description>Generates a word ladder between two words if it exists</description>
+    <keyword>BFS</keyword>
+    <keyword>breadth-first search</keyword>
+    <keyword>AI</keyword>
+  </Word Ladder.py>
+</package>

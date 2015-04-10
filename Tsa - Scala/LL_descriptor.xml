@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Tsa - Scala<BagScanActor.scala>
+    <description>Bag scanning actor, receives Passenger objects, fails the scan with a random probability, passes result to the SecurityActor</description>
+    <keyword>actor</keyword>
+    <keyword>messages</keyword>
+    <keyword>random number</keyword>
+  </BagScanActor.scala>
+  <BagScanDone.scala>
+    <description>Simple wrapper class for a Passenger</description>
+    <keyword>wrapper</keyword>
+    <keyword>trivial</keyword>
+  </BagScanDone.scala>
+  <BodyScanActor.scala>
+    <description>Simulates the body scan for the TSA simulation</description>
+    <keyword>actor</keyword>
+    <keyword>random number</keyword>
+    <keyword>messages</keyword>
+  </BodyScanActor.scala>
+  <BodyScanDone.scala>
+    <description>Simple bag scan wrapper for passengers</description>
+    <keyword>wrapper</keyword>
+    <keyword>trivial</keyword>
+  </BodyScanDone.scala>
+  <DocCheckActor.scala>
+    <description>Main driver class for the TSA security simulation with akka actors</description>
+    <keyword>actor</keyword>
+    <keyword>messages</keyword>
+    <keyword>random number</keyword>
+  </DocCheckActor.scala>
+  <JailActor.scala>
+    <description>Jail actor that receives and constructs a list of passengers taken in to custody by the TSA</description>
+    <keyword>actor</keyword>
+    <keyword>messages</keyword>
+  </JailActor.scala>
+  <LineQueueActor.scala>
+    <description>Gate-keeper class for messages entering each security line</description>
+    <keyword>actor</keyword>
+    <keyword>queue</keyword>
+    <keyword>messages</keyword>
+  </LineQueueActor.scala>
+  <LL_descriptor.xml />
+  <Passenger.scala>
+    <description>Simple passenger representation</description>
+    <keyword>trivial</keyword>
+  </Passenger.scala>
+  <Poison.scala>
+    <description>Acts as the 'poison pill' class to shut down the actors in the system</description>
+    <keyword>trivial</keyword>
+    <keyword>poison pill</keyword>
+  </Poison.scala>
+  <README.txt />
+  <Sample-Output.txt.txt />
+  <SecurityActor.scala>
+    <description>Receives messages from the bag and body scanners and sends passengers to the jail actor</description>
+    <keyword>concurrency</keyword>
+    <keyword>actor</keyword>
+    <keyword>messages</keyword>
+  </SecurityActor.scala>
+  <Tsa.scala>
+    <description>Main driver class for the TSA security simulation with akka actors</description>
+    <keyword>concurrency</keyword>
+    <keyword>actors</keyword>
+    <keyword>driver</keyword>
+    <keyword>messages</keyword>
+  </Tsa.scala>
+</package>

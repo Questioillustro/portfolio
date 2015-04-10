@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Binary Search Tree<BinarySearchTree.py>
+    <description>Tree Class for creating and using a binary tree</description>
+    <keyword>binary tree</keyword>
+  </BinarySearchTree.py>
+  <LL_descriptor.xml />
+  <TreeNode.py>
+    <description>Node class for use in a binary tree</description>
+    <keyword>node</keyword>
+    <keyword>binary tree</keyword>
+  </TreeNode.py>
+</package>

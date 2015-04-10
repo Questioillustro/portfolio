@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>LongestLine<Activity_Journal.txt />
+  <LL_descriptor.xml />
+  <longest />
+  <longest.c>
+    <description>Scans text from stdin and prints the longest line found</description>
+    <keyword>stdin</keyword>
+    <keyword>strings</keyword>
+  </longest.c>
+  <run_ll />
+  <tests_ll.txt />
+  <error_log.txt />
+</package>

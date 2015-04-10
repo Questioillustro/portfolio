@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Factorial<Activity_Journal.txt />
+  <factorial.rb>
+    <description>Computes factorials</description>
+    <keyword>exceptions</keyword>
+  </factorial.rb>
+  <factorial_test.rb>
+    <description>Tests the factorial methods</description>
+    <keyword>unit test</keyword>
+  </factorial_test.rb>
+  <LL_descriptor.xml />
+</package>

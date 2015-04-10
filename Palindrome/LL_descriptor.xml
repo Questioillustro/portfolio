@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Palindrome<LL_descriptor.xml />
+  <palindrome.py>
+    <description>Tests a string coming from stdin to see if it is a palindrome</description>
+    <keyword>stdin</keyword>
+    <keyword>text analysis</keyword>
+  </palindrome.py>
+  <palindrome_test_cases.txt />
+  <README.txt />
+</package>

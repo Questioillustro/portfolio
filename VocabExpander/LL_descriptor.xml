@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>VocabExpander<.classpath />
+  <.project />
+  <Einstein.txt />
+  <LittleKnownObjects.txt />
+  <LL_descriptor.xml />
+  <TestSet.txt />
+  <VocabExpander$ButtonListener.class />
+  <VocabExpander$WordAlert$PrintTask.class />
+  <VocabExpander$WordAlert.class />
+  <VocabExpander.class />
+  <VocabExpander.java>
+    <description>Pops up an alert from a list of externally supplied strings, originally made as a type of vocabulary flash card</description>
+    <keyword>swing</keyword>
+    <keyword>gui</keyword>
+    <keyword>blob class</keyword>
+  </VocabExpander.java>
+  <WriteAssist.jar />
+</package>

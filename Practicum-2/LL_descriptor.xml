@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Practicum-2<currency.rb>
+    <description>Converts currencies, written in a 50 minute practicum</description>
+    <keyword>practicum</keyword>
+    <keyword>stdin</keyword>
+  </currency.rb>
+  <currency_test.rb>
+    <description>Tests the practicum 2 methods, written in a 50 minute practicum</description>
+    <keyword>unit test</keyword>
+    <keyword>practicum</keyword>
+  </currency_test.rb>
+  <LL_descriptor.xml />
+  <tests.txt />
+</package>

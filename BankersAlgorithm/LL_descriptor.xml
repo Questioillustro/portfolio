@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>BankersAlgorithm<.classpath />
+  <.project />
+  <LL_descriptor.xml />
+  <org.eclipse.jdt.core.prefs />
+  <Banker.class />
+  <Client.class />
+  <Driver.class />
+  <Banker.java>
+    <description>Banker object for the practice exercise</description>
+    <keyword>threads</keyword>
+    <keyword>concurrency</keyword>
+    <keyword>banker algorithm</keyword>
+  </Banker.java>
+  <Client.java>
+    <description>Client object for the practice exercise</description>
+    <keyword>threads</keyword>
+    <keyword>concurrency</keyword>
+    <keyword>banker algorithm</keyword>
+  </Client.java>
+  <Driver.java>
+    <description>Main method</description>
+    <keyword>driver</keyword>
+  </Driver.java>
+</package>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>CIS225 - Project 4<CalcClient.class />
+  <CalcClient.java>
+    <description>Client for the Calculator Server, connects to the server and sends calculation requests, receives results</description>
+    <keyword>client</keyword>
+    <keyword>socket</keyword>
+    <keyword>io</keyword>
+  </CalcClient.java>
+  <CalcServer$ProcessNewTask.class />
+  <CalcServer.class />
+  <CalcServer.java>
+    <description>Server for the Calculator Server application, establishes connections with CalcClients, receives requests, responds with results</description>
+    <keyword>server</keyword>
+    <keyword>socket</keyword>
+    <keyword>io</keyword>
+    <keyword>threads</keyword>
+  </CalcServer.java>
+  <calculatorMain.class />
+  <calculatorMain.java>
+    <description>Starts up the Calculator Server application</description>
+    <keyword>frame</keyword>
+    <keyword>main</keyword>
+  </calculatorMain.java>
+  <Fraction.class />
+  <Fraction.java>
+    <description>Performs calculator logic for the Calculator Server</description>
+    <keyword>calculator logic</keyword>
+  </Fraction.java>
+  <fractionCalculator.class />
+  <fractionCalculator.java>
+    <description>Calculator logic for the Calculator Server application</description>
+    <keyword>calculator logic</keyword>
+  </fractionCalculator.java>
+  <LL_descriptor.xml />
+  <makeFrame$aboutFrame.class />
+  <makeFrame$ButtonListener.class />
+  <makeFrame$errorMessage.class />
+  <makeFrame$inputInfoFrame.class />
+  <makeFrame.class />
+  <makeFrame.java>
+    <description>GUI for the Calculator Server application, uses Swing</description>
+    <keyword>swing</keyword>
+    <keyword>gui</keyword>
+    <keyword>frame</keyword>
+  </makeFrame.java>
+</package>

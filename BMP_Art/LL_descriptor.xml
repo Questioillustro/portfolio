@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>BMP_Art<BMP_Art.ncb />
+  <BMP_Art.sdf />
+  <BMP_Art.sln />
+  <BMP_Art.suo />
+  <BMP_Art.v12.suo />
+  <LL_descriptor.xml />
+  <UpgradeLog.htm />
+  <BMP_Art.sln />
+  <BMP_Art.v12.suo />
+  <ArrayMain.cpp>
+    <description>Generates a BMP image using external EasyBMP files</description>
+    <keyword>BMP</keyword>
+    <keyword>image</keyword>
+    <keyword>draw</keyword>
+  </ArrayMain.cpp>
+  <blueRectangle.txt />
+  <BMPMain.cc />
+  <BMP_Art.vcproj />
+  <BMP_Art.vcproj.STUDENT-DM.sbrewster001.user />
+  <BMP_Art.vcproj.TheOctagon.Steve.user />
+  <BMP_Art.vcxproj />
+  <BMP_Art.vcxproj.filters />
+  <C2DArray.cpp>
+    <description>Generates a BMP image using external EasyBMP files</description>
+    <keyword>BMP</keyword>
+    <keyword>image</keyword>
+    <keyword>draw</keyword>
+  </C2DArray.cpp>
+  <C2DArray.h />
+  <EasyBMP.cpp />
+  <EasyBMP.h />
+  <EasyBMP_BMP.h />
+  <EasyBMP_DataStructures.h />
+  <EasyBMP_VariousBMPutilities.h />
+  <example.txt />
+  <redRectangle.txt />
+  <the_image.bmp />
+  <ArrayMain.obj />
+  <BMP_Art.exe.embed.manifest />
+  <BMP_Art.exe.embed.manifest.res />
+  <BMP_Art.exe.intermediate.manifest />
+  <BuildLog.htm />
+  <C2DArray.obj />
+  <EasyBMP.obj />
+  <mt.dep />
+  <vc90.idb />
+  <vc90.pdb />
+  <BMP_Art.exe />
+  <BMP_Art.ilk />
+  <BMP_Art.pdb />
+</package>

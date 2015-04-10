@@ -1,7 +1,9 @@
 import sys
-from PyQt5.QtWidgets import (QWidget, QLabel, QLineEdit, QListWidget, QPlainTextEdit,
-    QTextEdit, QGridLayout, QApplication, QHBoxLayout, QCheckBox, QComboBox, QPushButton,
-    QTableWidget, QTableWidgetItem, QRadioButton, QAbstractItemView)
+from PyQt5.QtWidgets import (
+    QWidget,    QLabel,      QLineEdit,       QListWidget, QPlainTextEdit,
+    QGridLayout,QApplication,QHBoxLayout,     QCheckBox,   QComboBox,
+    QPushButton,QTableWidget,QTableWidgetItem,QRadioButton,QAbstractItemView
+    )
 import db.query as query
 import qdarkstyle
 from PySide import QtGui

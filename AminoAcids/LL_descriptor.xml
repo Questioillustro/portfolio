@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>AminoAcids<amino_acids.py>
+    <description>Practice with python dictionary</description>
+    <keyword>dictionary</keyword>
+  </amino_acids.py>
+  <amino_acids_tests.txt />
+  <LL_descriptor.xml />
+  <README.txt />
+  <runtest />
+</package>

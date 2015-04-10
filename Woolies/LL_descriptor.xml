@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Woolies<.Bridge.java.swp />
+  <Bridge.class />
+  <Bridge.java>
+    <description>Bridge component of the simulation</description>
+    <keyword>concurrency</keyword>
+    <keyword>threads</keyword>
+  </Bridge.java>
+  <LL_descriptor.xml />
+  <Woolie.class />
+  <Woolie.java>
+    <description>Woolie object, concurrently attempt to cross a bridge</description>
+    <keyword>swing</keyword>
+    <keyword>frame</keyword>
+    <keyword>histogram</keyword>
+  </Woolie.java>
+  <WoolieDriver.class />
+  <WoolieDriver.java>
+    <description>Driver program to run the Woolies concurrency simulation</description>
+    <keyword>driver</keyword>
+  </WoolieDriver.java>
+</package>

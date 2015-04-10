@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Python Server-Client<client.py>
+    <description>Simple class for creating a server in Python</description>
+    <keyword>server</keyword>
+    <keyword>socket</keyword>
+  </client.py>
+  <LL_descriptor.xml />
+  <server.py>
+    <description>Simple class for creating a client in Python</description>
+    <keyword>client</keyword>
+    <keyword>socket</keyword>
+  </server.py>
+</package>

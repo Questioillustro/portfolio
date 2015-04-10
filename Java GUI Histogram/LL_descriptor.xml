@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Java GUI Histogram<2011.txt />
+  <2020.txt />
+  <2030.txt />
+  <2040.txt />
+  <2050.txt />
+  <2060.txt />
+  <AgeGroup.class />
+  <AgeGroup.java>
+    <description>Stores information for and Age Group, used in the histogram</description>
+    <keyword />
+  </AgeGroup.java>
+  <DistributionMain$ButtonListener.class />
+  <DistributionMain.class />
+  <DistributionMain.java>
+    <description>Displays Histogram information for a list of years</description>
+    <keyword>swing</keyword>
+    <keyword>frame</keyword>
+    <keyword>histogram</keyword>
+  </DistributionMain.java>
+  <LL_descriptor.xml />
+  <Year.class />
+  <Year.java>
+    <description>Utility functions for displaying the histogram</description>
+    <keyword>file</keyword>
+    <keyword>parser</keyword>
+  </Year.java>
+</package>

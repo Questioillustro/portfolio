@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>CProject1<.health.c.swo />
+  <header.h />
+  <health />
+  <health.c>
+    <description>Primary class for the Health Monitor System (C Project 1 - swen250)</description>
+    <keyword>csv</keyword>
+    <keyword>stdin</keyword>
+    <keyword>pointers</keyword>
+  </health.c>
+  <LL_descriptor.xml />
+  <README.txt />
+  <run_health />
+  <util.c>
+    <description>Utility methods for C Project 1</description>
+    <keyword>csv</keyword>
+    <keyword>stdin</keyword>
+    <keyword>pointers</keyword>
+  </util.c>
+  <verify />
+  <verify.c>
+    <description>Unused test method intended to verify the results of the main program</description>
+    <keyword>file</keyword>
+    <keyword>unused</keyword>
+  </verify.c>
+  <test_log.txt />
+  <lvl_1.c>
+    <description>Executes the level 1 requirements of the project</description>
+    <keyword />
+  </lvl_1.c>
+  <lvl_1_expected_output.txt />
+  <lvl_2.c>
+    <description>Executes the level 2 requirements of the project</description>
+    <keyword />
+  </lvl_2.c>
+  <lvl_2_expected_output.txt />
+  <lvl_3.c>
+    <description>Executes the level 3 requirements of the project</description>
+    <keyword />
+  </lvl_3.c>
+  <lvl_4.c>
+    <description>Executes the level 4 requirements of the project</description>
+    <keyword />
+  </lvl_4.c>
+  <lvl_5.c>
+    <description>Executes the level 5 requirements of the project</description>
+    <keyword />
+  </lvl_5.c>
+  <test_lvl_1.txt />
+  <test_lvl_2.txt />
+  <test_lvl_3.txt />
+  <test_lvl_4.txt />
+  <test_lvl_5.txt />
+</package>

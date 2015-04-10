@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>DBConverter<BDNumber.java>
+    <description>Converts numbers between decimal and binary</description>
+    <keyword>binary</keyword>
+    <keyword>converter</keyword>
+  </BDNumber.java>
+  <BDNumberMain.java>
+    <description>Converts numbers between decimal and binary</description>
+    <keyword>driver</keyword>
+    <keyword>main</keyword>
+  </BDNumberMain.java>
+  <LL_descriptor.xml />
+</package>

@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Encryptor<connectionFrame$1.class />
+  <Encryptor.class />
+  <Encryptor.java />
+  <EncryptorFrame$1.class />
+  <EncryptorFrame$ButtonListener.class />
+  <EncryptorFrame$connectionFrame$1.class />
+  <EncryptorFrame$connectionFrame$2.class />
+  <EncryptorFrame$connectionFrame.class />
+  <EncryptorFrame$encryptorClient.class />
+  <EncryptorFrame$ReceiveConnection.class />
+  <EncryptorFrame.class />
+  <EncryptorFrame.java>
+    <description>Creates the GUI for the Encryptor application</description>
+    <keyword>swing</keyword>
+    <keyword>gui interface</keyword>
+  </EncryptorFrame.java>
+  <encryptorMain.class />
+  <encryptorMain.java>
+    <description>Starts the Encryptor application</description>
+    <keyword>driver</keyword>
+    <keyword>swing</keyword>
+    <keyword>frame</keyword>
+  </encryptorMain.java>
+  <EncryptServer$ProcessNewTask.class />
+  <EncryptServer.class />
+  <EncryptServer.java>
+    <description>Starts the server for the Encrypted chat application</description>
+    <keyword>socket</keyword>
+    <keyword>io</keyword>
+    <keyword>server</keyword>
+    <keyword>threads</keyword>
+  </EncryptServer.java>
+  <ExampleText.txt />
+  <Fibonacci.class />
+  <Fibonacci.java>
+    <description>Encrypts and decrypts text using a fibonacci sequence shift cypher</description>
+    <keyword>shift cyper</keyword>
+    <keyword>fibonacci</keyword>
+    <keyword>encryption</keyword>
+  </Fibonacci.java>
+  <LL_descriptor.xml />
+  <Platinum.class />
+  <Platinum.java>
+    <description>Encrypts and decrypts text using a custom shift cypher</description>
+    <keyword>shift cypher</keyword>
+    <keyword>encryption</keyword>
+  </Platinum.java>
+  <VignereEncoder.java>
+    <description>Uses a passphrase to encrypt text</description>
+    <keyword>passphrase</keyword>
+    <keyword>shift cypher</keyword>
+    <keyword>encryption</keyword>
+  </VignereEncoder.java>
+</package>

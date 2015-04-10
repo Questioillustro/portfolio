@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>LessonsLearned<LL_descriptor.xml />
+  <LL_GUI.py />
+  <README.txt />
+  <rebuild_db.py>
+    <description>Main module for the LessonsLearned application</description>
+    <keyword>driver</keyword>
+  </rebuild_db.py>
+  <remote_conn.py />
+  <search_interface.py>
+    <description>Provides cmd line interface to portfolio database</description>
+    <keyword>command line interface</keyword>
+  </search_interface.py>
+  <Test.py />
+  <update_db.py>
+    <description>Scans file system to find any updated files</description>
+    <keyword>driver</keyword>
+  </update_db.py>
+  <alter_tables.py>
+    <description>Module to set the constraints, permissions and any other features of the portfolio database</description>
+    <keyword>dml</keyword>
+    <keyword>alter tables</keyword>
+    <keyword>permissions</keyword>
+    <keyword>constraints</keyword>
+    <keyword>database</keyword>
+  </alter_tables.py>
+  <alter_tables.pyc />
+  <create_tables.py>
+    <description>Module to create all tables in the LessonsLearned application database</description>
+    <keyword>sql</keyword>
+    <keyword>try</keyword>
+    <keyword>except</keyword>
+    <keyword>tuple</keyword>
+  </create_tables.py>
+  <create_tables.pyc />
+  <drop_tables.py>
+    <description>Module to drop all tables in the LessonsLearned application database</description>
+    <keyword>sql</keyword>
+    <keyword>try</keyword>
+    <keyword>except</keyword>
+    <keyword>tuples</keyword>
+  </drop_tables.py>
+  <drop_tables.pyc />
+  <ll_db_io.py>
+    <description>Module to handle SQL transactions with the database for the LessonsLearned application</description>
+    <keyword>psycopg2</keyword>
+    <keyword>postgresql</keyword>
+    <keyword>database</keyword>
+    <keyword>try</keyword>
+    <keyword>except</keyword>
+    <keyword>sql</keyword>
+  </ll_db_io.py>
+  <ll_db_io.pyc />
+  <pg_get_connection.py>
+    <description>Module to create all tables for the LessonsLearned application database</description>
+    <keyword>psycopg2</keyword>
+    <keyword>postgres</keyword>
+    <keyword>connect to database</keyword>
+    <keyword>try</keyword>
+    <keyword>except</keyword>
+  </pg_get_connection.py>
+  <pg_get_connection.pyc />
+  <query.py>
+    <description>Module to query the database for content</description>
+    <keyword>psycopg2</keyword>
+    <keyword>postgresql</keyword>
+    <keyword>database</keyword>
+    <keyword>try</keyword>
+    <keyword>except</keyword>
+    <keyword>sql</keyword>
+  </query.py>
+  <query.pyc />
+  <__init__.py />
+  <__init__.pyc />
+  <pg_get_connection.cpython-34.pyc />
+  <query.cpython-34.pyc />
+  <__init__.cpython-34.pyc />
+  <Architecture.dia />
+  <Architecture.jpeg />
+  <ERDiagram.dia />
+  <ERDiagram.dia~ />
+  <ERDiagram.jpeg />
+  <Final_sample.backup />
+  <LessonsLearned_ProjectPlan.pdf />
+  <LessonsLearned_Submission.zip />
+  <Poster.jpg />
+  <Poster.psd />
+  <buildMenuBar.py />
+  <LessonsLearnedDesignFile.ui />
+  <test.stylesheet />
+  <__init__.py />
+  <buildMenuBar.cpython-34.pyc />
+  <__init__.cpython-34.pyc />
+  <log.txt />
+  <comments_to_xml.py />
+  <__init__.py />
+  <comments_to_xml.py>
+    <description>Pulls comment style tags out and creates xml document files in the package root directory</description>
+  </comments_to_xml.py>
+  <debug.py>
+    <description>Debugging module for Python, prints various debug statements</description>
+    <keyword>debug</keyword>
+    <keyword>ouput manager</keyword>
+  </debug.py>
+  <debug.pyc />
+  <initialize_new_database.py>
+    <description>Set of database initialization tools for the LessonsLearned application</description>
+    <keyword>search folder</keyword>
+    <keyword>search file system</keyword>
+    <keyword>tuples</keyword>
+  </initialize_new_database.py>
+  <initialize_new_database.pyc />
+  <ll_toolkit.py>
+    <description>Set of database initialization tools for the LessonsLearned application</description>
+    <keyword>regex</keyword>
+    <keyword>open file</keyword>
+    <keyword>read file</keyword>
+  </ll_toolkit.py>
+  <ll_toolkit.pyc />
+  <statistics.py>
+    <description>Module to generate statistics over the portfolio database</description>
+    <keyword>statistics</keyword>
+  </statistics.py>
+  <statistics.pyc />
+  <__init__.py />
+  <__init__.pyc />
+  <debug.cpython-34.pyc />
+  <ll_toolkit.cpython-34.pyc />
+  <statistics.cpython-34.pyc />
+  <__init__.cpython-34.pyc />
+  <search_interface.cpython-34.pyc />
+</package>

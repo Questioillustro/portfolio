@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>TempConvert<chart1 />
+  <chart1.c>
+    <description>Shows F to C conversion for temps between 0 and 300 F</description>
+    <keyword>temperature</keyword>
+  </chart1.c>
+  <chart2 />
+  <chart2.c>
+    <description>Shows F to C conversion for temps between 0 and 300 F</description>
+    <keyword>temperature</keyword>
+  </chart2.c>
+  <LL_descriptor.xml />
+  <README.txt />
+</package>

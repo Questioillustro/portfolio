@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>PW Protector<LL_descriptor.xml />
+  <passwords.txt />
+  <pw_prot.py>
+    <description>Stores username password pairs for a site in a shift cypher encryption using a passphrase</description>
+    <keyword>shift cypher</keyword>
+    <keyword>passphrase</keyword>
+    <keyword>text file database</keyword>
+    <keyword>file</keyword>
+  </pw_prot.py>
+</package>

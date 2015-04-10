@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>Real-time<freq_accuracy_test.c>
+    <description>Implemented on Freescale microcontroller</description>
+    <keyword>real-time</keyword>
+    <keyword>histogram</keyword>
+  </freq_accuracy_test.c>
+  <Lab2b.c>
+    <description>Concurrently controls 2 servos using the QNX operating system</description>
+    <keyword>threads</keyword>
+    <keyword>concurrency</keyword>
+    <keyword>mutex</keyword>
+    <keyword>blob class</keyword>
+    <keyword>real-time</keyword>
+    <keyword>servo</keyword>
+  </Lab2b.c>
+  <Lab3.c />
+  <Lab5.c>
+    <description>Measures distance using an ultrasonic sensor</description>
+    <keyword>ultrasonic sensor</keyword>
+    <keyword>blob class</keyword>
+    <keyword>real-time</keyword>
+  </Lab5.c>
+  <LL_descriptor.xml />
+  <servo_freescale.c>
+    <description>Executes concurrent servo control on freescale microcontroller</description>
+    <keyword>servo</keyword>
+    <keyword>concurrency</keyword>
+    <keyword>blob class</keyword>
+    <keyword>real-time</keyword>
+  </servo_freescale.c>
+  <TellerServer.c>
+    <description>Simulates a bank day and prints statistics</description>
+    <keyword>threads</keyword>
+    <keyword>concurrency</keyword>
+    <keyword>mutex</keyword>
+    <keyword>blob class</keyword>
+    <keyword>real-time</keyword>
+  </TellerServer.c>
+</package>

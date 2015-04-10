@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>csv<csv />
+  <csv.c>
+    <description>Parse and print CSV formatted files read from standard input</description>
+    <keyword>csv</keyword>
+    <keyword>stdin</keyword>
+  </csv.c>
+  <LL_descriptor.xml />
+  <test_grades />
+  <test_recipe />
+</package>

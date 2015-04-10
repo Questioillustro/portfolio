@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>SpeedReader<LL_descriptor.xml />
+  <SpeedReader$ButtonListener.class />
+  <SpeedReader$Printer$PrintTask.class />
+  <SpeedReader$Printer.class />
+  <SpeedReader.class />
+  <SpeedReader.java>
+    <description>Tests reading speed</description>
+    <keyword>swing</keyword>
+    <keyword>frame</keyword>
+  </SpeedReader.java>
+</package>

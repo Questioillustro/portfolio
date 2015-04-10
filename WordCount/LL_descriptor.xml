@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>WordCount<DarkAndStormyNight.txt />
+  <LL_descriptor.xml />
+  <README.txt />
+  <ritwc.py>
+    <description>Mimics the wc operation in Linux</description>
+    <keyword>stdin</keyword>
+  </ritwc.py>
+</package>

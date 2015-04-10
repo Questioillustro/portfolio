@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package>RobotPathFinder<.Lab1_RobotPath.py.swp />
+  <Lab1_RobotPath.py>
+    <description>Uses a black and white map to calculate a path between two coordinates</description>
+    <keyword>PIL</keyword>
+    <keyword>Queue</keyword>
+    <keyword>time</keyword>
+    <keyword>math</keyword>
+    <keyword>image</keyword>
+    <keyword>A* search</keyword>
+    <keyword>DFS</keyword>
+    <keyword>depth-first search</keyword>
+    <keyword>AI</keyword>
+  </Lab1_RobotPath.py>
+  <LL_descriptor.xml />
+  <mini-test.png />
+  <Reflection.docx />
+  <robotMap (copy).png />
+  <robotMap.png />
+  <solution.png />
+</package>
