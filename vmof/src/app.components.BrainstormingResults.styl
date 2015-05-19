@@ -1,0 +1,33 @@
+$icon-font-path ?= '/my-bootstrap-styl/fonts/';
+$icon-font-path ?= '/my-bootstrap-styl/js/';
+$icon-font-path ?= '/my-bootstrap-styl/bootstrap/';
+$icon-font-path ?= '/my-bootstrap-styl/';
+@import 'bootstrap';
+
+.vf-vote-up,.vf-vote-down {
+	font-size:50px;
+	color:#888;
+	cursor: pointer;
+	text-align:center;
+}
+
+.vf-vote-count {
+	text-align:center;
+}
+
+.vf-vote-up.active {
+	color:green;
+}
+
+.vf-vote-down.active {
+	color:red;
+}
+
+.vf-post-comments {
+	display: none;
+	margin-bottom: 5px;
+}
+
+.vf-page-comment {
+	cursor: pointer;
+}

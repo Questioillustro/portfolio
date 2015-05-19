@@ -1,0 +1,37 @@
+$icon-font-path ?= '/my-bootstrap-styl/fonts/';
+@import 'bootstrap';
+
+.vf-user-ready {
+	color: #5cb85c;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+.sidebar-two {
+	z-index: 1001;
+}
+
+.vf-user-icon {
+	width: 32px;
+	height: 32px;
+	display: none;
+	vertical-align: middle;
+}
+
+.vf-user-late-join {
+	font-size: 28px;
+	color: red;
+	vertical-align: middle;
+}
+
+.vf-log-out {
+	font-size: 18px;
+	cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .vf-log-out {
+        display: none;
+    }
+}
+

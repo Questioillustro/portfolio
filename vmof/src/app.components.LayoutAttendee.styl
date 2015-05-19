@@ -1,0 +1,114 @@
+$icon-font-path ?= '/my-bootstrap-styl/fonts/';
+@import 'bootstrap';
+
+.main-content {
+	position: absolute;
+	left: 0;
+	//right: 200px;
+	right: 250px;
+	height: 500px;
+	overflow: auto;
+	-webkit-transition:left 1s ease, right 1s ease;
+	-moz-transition:left 1s ease, right 1s ease;
+	-o-transition:left 1s ease, right 1s ease;
+	transition:left 1s ease, right 1s ease;
+}
+
+.room {
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+.users {
+	position: absolute;
+	overflow: auto;
+	height: 100px;
+	//top: 40px;
+	top: 38px;
+	left: 0;
+	right: 0;
+	background-color: #4e5d6c;
+}
+
+.sidebar-two {
+	width: 250px;
+	position: absolute;
+	right: 0;
+	height: 500px;
+	overflow: auto;
+	white-space: nowrap;
+  	cursor: pointer;
+  	user-select: none;
+  	-webkit-user-select: none;
+	-webkit-transition:width 1s ease;
+	-moz-transition:width 1s ease;
+	-o-transition:width 1s ease;
+	transition:width 1s ease;
+	z-index: 1001;
+}
+
+.main-content-inner {
+	padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .sidebar-two {
+    	width: 0;
+    }
+    .main-content {
+    	right: 0;
+    }
+    .sidebar-two.toggled {
+		width: 250px;
+    }
+}
+
+nav.vf-navbar {
+	margin-bottom: 0px;	
+}
+
+ul.vf-list-group {
+	margin-bottom: 0;
+	overflow-x: hidden;
+	-ms-overflow-x: hidden;
+}
+
+li.vf-list-group-item {
+	border-left: none;
+}
+
+.vf-list-group-item-inner {
+	width: 168px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.vf-list-group-item-label {
+	margin-left: 10px;
+	width: 168px;
+	overflow: hidden;
+}
+
+li.vf-list-group-item:first-child {
+	border-radius: 0;
+}
+
+li.vf-list-group-item:last-child {
+	border-radius: 0;
+}
+
+div.vf-panel {
+	margin-bottom: 0;
+	background-color: #337ab7;
+	border-radius: 0;
+	-webkit-border-radius:0;
+}
+
+div.alert {
+	display:none;
+}
+
+.dismiss-alert {
+	float: right;
+}

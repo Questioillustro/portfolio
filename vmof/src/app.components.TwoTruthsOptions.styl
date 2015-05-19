@@ -1,0 +1,210 @@
+$icon-font-path ?= '/my-bootstrap-styl/fonts/';
+@import 'bootstrap';
+
+
+.vf-col-space
+{
+  width: 33%
+}
+
+.vf-one-hundred
+{
+  width: 100px;
+}
+
+.center-button
+{
+
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.showError
+{
+  display: block;
+}
+
+.graphText
+{
+  font-size: medium;
+}
+
+.hideMe
+{
+  display: none;
+
+}
+
+.no-click
+{
+  cursor: pointer;
+}
+
+.vf-status {
+    margin-bottom: 20px;
+}
+
+.vf-btn-group-status {
+    border: 1px solid black;
+}
+
+.centered
+{
+    padding-top: 25px;
+    text-align:center;
+}
+
+.center-me{
+	text-align: center;
+}
+
+.gifDisplayer{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.optionsPadding
+{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.vf-form-group
+{
+  padding-bottom: 15px;
+}
+
+.custom-pad
+{
+	width = 50em;
+	word-wrap: break-word;
+}
+
+.stay-down
+{
+	position: absolute;
+	background-color: #E6E6E6;
+    bottom: 0px;
+    right: 300px;
+    left: 0px;
+    z-index: 1000;
+    height: 50px;
+    width: 100%;
+}
+.timer{
+	padding-left: 30px;
+	float: left;
+}
+
+.score{
+	padding-right: 30px;
+	float: right;
+}
+
+.input-spacing{
+	padding-bottom: 30px;
+}
+
+.message-center{
+	height: 10px;
+}
+
+.red{
+	color: red;
+}
+
+.green{
+	color: #00FF00;
+}
+
+.proceed-table{
+
+    text-align:center;
+    width: 75%;
+}
+
+.proceed-button{
+	padding-bottom: 10px;
+}
+
+.scale-activity{
+	padding-top: 10%;
+}
+
+.bestLier {
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 100px;
+  background-color: #D9EDF7;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.mostGullible {
+  height: 100px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 100px;
+  background-color: #D9EDF7;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.card {
+  height: 200px;
+  margin-bottom: 20px;
+  perspective:800px;
+  color: black;
+}
+.card div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+    z-index:10;
+}
+.card .front {
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 100px;
+  background-color: #D9EDF7;
+  border-color: #BCE8F1;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.card .back {
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 100px;
+  background: #00FF00;
+  z-index:0;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.card.flip .front {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+    z-index:0;
+}
+.card.flip .back {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    z-index:10;
+}
+

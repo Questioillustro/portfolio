@@ -1,0 +1,41 @@
+$icon-font-path ?= '/my-bootstrap-styl/fonts/';
+@import 'bootstrap';
+
+nav.vf-navbar {
+	margin-bottom: 0px;	
+	border-bottom: solid 1px black;
+}
+
+.vf-navbar-brand {
+	overflow: hidden; 
+    white-space: nowrap;
+    text-overflow: clip ellipsis;
+}
+
+.vf-online {
+	color: green;
+}
+
+.vf-offline {
+	color: red;
+}
+
+.vf-fac-status {
+	display:none;
+	float: right;
+	margin-right: 30px;
+}
+
+.vf-top-nav-log-out {
+	margin-right: 100px;
+	margin-top: 10px;
+	float: right;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #nav-content .vf-top-nav-log-out {
+        display: none;
+    }
+}

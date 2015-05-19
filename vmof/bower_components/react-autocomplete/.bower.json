@@ -1,0 +1,14 @@
+{
+  "name": "react-autocomplete",
+  "homepage": "https://github.com/prometheusresearch/react-autocomplete",
+  "_release": "987c9065b5",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "987c9065b588639d7540e8ff26e94d63a2e50d83"
+  },
+  "_source": "git://github.com/prometheusresearch/react-autocomplete.git",
+  "_target": "*",
+  "_originalSource": "prometheusresearch/react-autocomplete",
+  "_direct": true
+}

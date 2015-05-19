@@ -1,0 +1,76 @@
+{
+  "name": "ron-react-autocomplete",
+  "version": "0.0.6",
+  "description": "Autocomplete component for React",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "make test",
+    "prepublish": "gulp compile-jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/malonecj/react-autocomplete.git"
+  },
+  "keywords": [
+    "react",
+    "autocomplete"
+  ],
+  "dependencies": {
+    "react": "^0.12.1"
+  },
+  "devDependencies": {
+    "browserify": "^5.12.0",
+    "eslint-jsx": "git+https://github.com/andreypopp/eslint#jsx",
+    "jquery": "^2.1.1",
+    "mocha": "^1.18.2",
+    "mochify": "^0.8.1",
+    "sinon": "^1.9.1",
+    "browserify-shim": "^3.7.0",
+    "gulp-react": "^1.0.2",
+    "gulp-clean": "^0.3.1",
+    "gulp": "^3.8.8"
+  },
+  "browserify-shim": {
+    "react/addons": "global:React"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ],
+      "browserify-shim"
+    ]
+  },
+  "author": {
+    "name": "Conor Malone"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malonecj/react-autocomplete/issues"
+  },
+  "homepage": "https://github.com/malonecj/react-autocomplete",
+  "gitHead": "3f7fdb5045498d1f77a990607680c052d719969f",
+  "_id": "ron-react-autocomplete@0.0.6",
+  "_shasum": "d5c9e13c85fc2057ebed2656446bccb68b6c4441",
+  "_from": "ron-react-autocomplete@*",
+  "_npmVersion": "1.4.28",
+  "_npmUser": {
+    "name": "malonecj",
+    "email": "malonecj@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "malonecj",
+      "email": "malonecj@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "d5c9e13c85fc2057ebed2656446bccb68b6c4441",
+    "tarball": "http://registry.npmjs.org/ron-react-autocomplete/-/ron-react-autocomplete-0.0.6.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/ron-react-autocomplete/-/ron-react-autocomplete-0.0.6.tgz"
+}
